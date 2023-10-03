@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+    background-color:#fcf4f6 ;
+}
+.nav-link{
+    transition: all ease-in-out 0.01s;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #c12066;
+    font-weight: bolder;
+}
+.inputPesquisa{
+    background-color:transparent;
+    border-bottom: 2px solid #c12066;
+    outline: none;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+}
+.btnBuscar{
+    background-color:#8e2552;
+    color: white;
+}
+.btnBuscar:hover{
+    background-color:#8e2552;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cardTitle{
+    background-color:#8e2552;
+    color: white;
+}
+.card{
+    cursor: pointer;
+    transition: all ease 0.1s;
+    border: none;
+}
+.card:hover{
+    border: 2px solid #8e2552;
+    border-radius: 5px 5px 5px 0px;
+}
+.btn{
+    background-color: #8e2552;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    background-color: #8e2552;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+.facilidades{
+    background-color: #8e2552;
+    color: white;
+}
+footer{
+    background-color: #8e2552;
+    color: white;
+}
+button{
+    background-color: #8e2552;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+h5{
+    text-align: center;
+}
+.precos{
+    text-align: center;
+    font-weight: bolder;
+}
+.btnVerMais{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    font-weight: bolder;
+}
